@@ -254,6 +254,7 @@ body {
     width: calc(100% - 2px); /* Full width minus 1px inset on each side */
     height: calc(100% - 2px); /* Full height minus 1px inset on each side */
     margin: 1px;
+    text-transform: uppercase;
 }
 .button[data-type="inverted"] a {
     background-color: #202328;
@@ -307,6 +308,7 @@ button.right {
     transform: rotate(45deg) translate(0, 12px) scaleX(1);
 }
 
+
 h1, h2, h3, h4, h5 {
     color: var(--fc-base-main);
 }
@@ -340,14 +342,25 @@ h1, h2, h3, h4, h5 {
     text-align: left;
 
     & h1 {
-        margin: var(--size-24) 0;
+        margin: var(--size-32) 0;
+        font-size: 4.5rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        font-family: Helvetica, sans-serif;
+        color: #c4fee7;
+        font-weight: 500;
     }
 
     & p {
-        margin-bottom: var(--size-48);
+        margin-bottom: var(--size-24);
+        margin-top: var(--size-24);
         color: var(--base-white);
         font-weight: var(--fw-semibold);
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
     }
+}
+
+.highlight {
+    color: var(--md-accent-fg-color);
 }
 
 .rating {
