@@ -1,5 +1,7 @@
 ---
 title: Quick Start
+hide:
+  - navigation
 ---
 
 RaspAP gives you two different ways to get up and running quickly. The simplest approach is to use our <a href="https://github.com/RaspAP/raspap-webgui/releases/latest">custom OS image</a> with RaspAP preinstalled. This option eliminates guesswork and gives you a base upon which to build. An alternative method is to execute the Quick installer on an existing <a href="#distros">compatible OS</a>.
