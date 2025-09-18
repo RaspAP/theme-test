@@ -153,30 +153,30 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Probes:
-    - Cartographer: getting-started/markdown.md
-    - Beacon: getting-started/admonitions.md
-    - BLTouch: getting-started/codeblocks.md
-    - Microprobe: getting-started/markdown.md
-    - Klicky: getting-started/admonitions.md
-    - BTTEddy: getting-started/codeblocks.md
-    - EddyNG: getting-started/markdown.md
-  - Getting started:
-    - getting-started.md
-    - Markdown: getting-started/markdown.md
-    - Admonitions: getting-started/admonitions.md
-    - Codeblocks: getting-started/codeblocks.md
-    - Custom:
-      - Setup example: getting-started/setup.md
-      - Using beta tags: getting-started/test.md
+  # - Probes:
+  #   - Cartographer: getting-started/markdown.md
+  #   - Beacon: getting-started/admonitions.md
+  #   - BLTouch: getting-started/codeblocks.md
+  #   - Microprobe: getting-started/markdown.md
+  #   - Klicky: getting-started/admonitions.md
+  #   - BTTEddy: getting-started/codeblocks.md
+  #   - EddyNG: getting-started/markdown.md
+  - Quick Start:
+    - quick-start.md
+    # - Markdown: getting-started/markdown.md
+    # - Admonitions: getting-started/admonitions.md
+    # - Codeblocks: getting-started/codeblocks.md
+    # - Custom:
+    #   - Setup example: getting-started/setup.md
+    #   - Using beta tags: getting-started/test.md
   - Blog:
     - blog/index.md
-  - Example pages:
-    - cartographer.md
-    - FAQ.md
-  - Tutorials:
-    - custom-homepage.md
-    - homepage-live-demo.md
+  # - Example pages:
+  #   - cartographer.md
+  #   - FAQ.md
+  # - Tutorials:
+  #   - custom-homepage.md
+  #   - homepage-live-demo.md
 
 watch:
   - docs
