@@ -3,16 +3,10 @@ date: 2025-04-20
 title: Building a realtime network traffic LED indicator in Linux
 linkTitle: Realtime Traffic Inidicator
 author: ([Bill Z](https://github.com/billz))
-resources:
-  - src: "**.{png,jpg}"
-    title: "Image #:counter"
-    params:
-      byline: "Photo: Riona MacNamara / CC-BY-CA"
 ---
 
-{{< imgproc traffic-light Resize 800x >}}
-Photo by <a href="https://unsplash.com/@eliobedsuarez?utm_source=raspap">Eliobed Suarez</a> on <a href="https://unsplash.com/?utm_source=raspap">Unsplash</a>.
-{{< /imgproc >}}
+<img src="/theme-test/blog/assets/images/traffic-light.webp" width="600px"><br/>
+*Photo by <a href="https://unsplash.com/@eliobedsuarez?utm_source=raspap">Eliobed Suarez</a> on <a href="https://unsplash.com/?utm_source=raspap">Unsplash</a>.*
 
 LED traffic indicators are common on most networking devices, from home routers, to commercial equipment and Ethernet-equipped Raspberry Pis.
 
@@ -23,8 +17,7 @@ As visual cues, they’re useful indicators of a network’s normal function wit
 ### Transforming static software LEDs
 The open source [RaspAP wireless router project](https://github.com/RaspAP/raspap-webgui) uses software LEDs to indicate the operational status of many services, system resources and interfaces. Like hardware LEDs, they’re visual indicators designed to provide a quick, at-a-glance status of some part of the system.
 
-{{< imgproc lights-static Resize 600x >}}
-{{< /imgproc >}}
+<img src="/theme-test/blog/assets/images/lights-static.webp" width="600px"><br/>
 
 These software LEDs, while functional, are completely static. That is, they display a fixed green, amber or red color to indicate the status of some aspect of the system. What if, like the hardware LEDs, they could be transformed to indicate network traffic over a given interface?
 
@@ -261,8 +254,8 @@ RaspAP has a total of three static network LEDs located in various parts of the 
 ### The results
 With the implementation done, all that’s needed now is some network traffic. For testing, a client device is connected to the access point created by RaspAP. Thereafter, some moderate browsing is performed on the client and the results are observed in RaspAP’s web UI.
 
-{{< imgproc lights-flashing Resize 600x >}}
-A dynamic network traffic LED showing activity on wlan0.{{< /imgproc >}}
+<img src="/theme-test/blog/assets/images/lights-flashing.gif" width="600px"><br/>
+*A dynamic network traffic LED showing activity on wlan0.*
 
 My overall impression of the new, dynamic network traffic LED is that it closely resembles its hardware counterpart. A 100ms interval (10 Hz) is actually on the low end of what’s considered “visibly responsive.” Despite this, I find it to be a surprisingly accurate and useful indicator.
 

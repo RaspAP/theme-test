@@ -2,7 +2,7 @@
 title: Quick Start
 ---
 
-RaspAP gives you two different ways to get up and running quickly. The simplest approach is to use a <a href="https://github.com/RaspAP/raspap-webgui/releases/latest">custom OS image</a> with RaspAP preinstalled. This option eliminates guesswork and gives you a base upon which to build. An alternative method is to execute the Quick installer on an existing <a href="#distros">compatible OS</a>.
+RaspAP gives you two different ways to get up and running quickly. The simplest approach is to use our <a href="https://github.com/RaspAP/raspap-webgui/releases/latest">custom OS image</a> with RaspAP preinstalled. This option eliminates guesswork and gives you a base upon which to build. An alternative method is to execute the Quick installer on an existing <a href="#distros">compatible OS</a>.
 
 ## Custom OS
 Custom Raspberry Pi OS Lite images with the latest RaspAP are available for <a href="https://github.com/RaspAP/raspap-webgui/releases/latest">direct download</a>. This includes both 32- and 64-bit builds for ARM architectures.
@@ -51,7 +51,8 @@ It is strongly recommended that you change these default credentials in RaspAP's
 Your AP's <a href="https://docs.raspap.com/features-core/ap-basics/">basic settings</a> and many <a href="https://docs.raspap.com/features-core/ap-basics/#advanced-options">advanced options</a> may now be modified by RaspAP.
 
 ## Supported Distributions
-RaspAP was originally made for Raspberry Pi OS, but now also installs on the following Debian-based distros.
+<a name="distros"></a>
+RaspAP was originally made for Raspberry Pi OS, but now also installs on the following Debian-based distros:
 
 | Distribution | Release | Architecture | Support | 
 | ------------ | ------- | ------------ | ------- |
@@ -68,6 +69,4 @@ Linux distributions
 You are also encouraged to try RaspAP's community-led <a href="https://github.com/RaspAP/raspap-docker">Docker container</a>.
 
 ## Documentation and more
-Our <a href="https://docs.raspap.com/faq/">frequently asked questions (FAQ)</a> are continuously updated and are a great place to start. Need help not covered in the FAQ, have an idea or want to share your project with the RaspAP community? Head over to our GitHub <a href="https://github.com/RaspAP/raspap-webgui/discussions">Discussions</a>. For everything else, dive into our official documentation.
-
-More detailed information can be found in our <a href="https://docs.raspap.com">documentation</a>.
+Our <a href="https://docs.raspap.com/faq/">frequently asked questions (FAQ)</a> are continuously updated and are a great place to start. Need help not covered in the FAQ, have an idea, or want to share your project with the RaspAP community? Head over to our <a href="https://github.com/RaspAP/raspap-webgui/discussions">GitHub Discussions</a>. For everything else and more detailed information, dive into our official <a href="https://docs.raspap.com">documentation</a>.
