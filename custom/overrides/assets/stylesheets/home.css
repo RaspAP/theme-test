@@ -553,6 +553,7 @@ h1, h2, h3, h4, h5 {
 .fc-on-color { color: var(--fc-on-color);}
 .fc-disabled { color: var(--fc-disabled);}
 .fc-primary { color: var(--fc-primary);}
+.icon { font-size: 1.2rem; color: var(--fc-primary);}
 
 /* background | Lightmode */
 .bg-base-main { background-color: var(--bg-base-main);}
