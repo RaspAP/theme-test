@@ -465,7 +465,7 @@ h1, h2, h3, h4, h5 {
 
 .grid-image img {
     max-width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 16 / 9;
 
     border-radius: var(--br-16);
 }

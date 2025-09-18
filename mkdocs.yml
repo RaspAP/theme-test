@@ -1,7 +1,7 @@
 # Project information
-site_name: My Docs
-site_url: https://a3bagged.github.io/theme-test/
-site_author: Chris van Liere
+site_name: RaspAP
+site_url: https://raspap.com
+site_author: RaspAP Community
 site_description: >-
   The easiest, full-featured wireless router setup for Debian-based devices. Period.
 
@@ -10,7 +10,7 @@ repo_name: RaspAP/raspap-website
 repo_url: https://github.com/RaspAP/raspap-website
 edit_uri: edit/main/docs/
 
-copyright: Copyright &copy; 2024 - All rights reserved
+copyright: Copyright &copy; 2025 - All rights reserved
 
 theme:
   name: material
@@ -104,14 +104,14 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
   #generator: false
   social:
-    - icon: simple/kofi
-      link: https://ko-fi.com/pellcorp49698
-    - icon: material/hand-coin
-      link: https://gofund.me/2033eedb
+    # - icon: simple/kofi
+    #   link: https://ko-fi.com/pellcorp49698
+    # - icon: material/hand-coin
+    #   link: https://gofund.me/2033eedb
     - icon: simple/github
-      link: https://github.com/pellcorp
+      link: https://github.com/raspap
     - icon: simple/discord
-      link: https://discord.gg/tGGVn5qjgv
+      link: https://discord.gg/rth5Yzzm
 
 # Extensions
 markdown_extensions:

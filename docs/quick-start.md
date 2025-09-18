@@ -2,29 +2,30 @@
 title: Quick Start
 ---
 
-RaspAP gives you two different ways to get up and running quickly. The simplest approach is to use a custom OS image with RaspAP preinstalled. This option eliminates guesswork and gives you a base upon which to build. An alternative method is to execute the Quick installer on an existing compatible OS.
+RaspAP gives you two different ways to get up and running quickly. The simplest approach is to use a <a href="https://github.com/RaspAP/raspap-webgui/releases/latest">custom OS image</a> with RaspAP preinstalled. This option eliminates guesswork and gives you a base upon which to build. An alternative method is to execute the Quick installer on an existing <a href="#distros">compatible OS</a>.
 
 ## Custom OS
-Custom Raspberry Pi OS Lite images with the latest RaspAP are available for direct download. This includes both 32- and 64-bit builds for ARM architectures.
+Custom Raspberry Pi OS Lite images with the latest RaspAP are available for <a href="https://github.com/RaspAP/raspap-webgui/releases/latest">direct download</a>. This includes both 32- and 64-bit builds for ARM architectures.
 
 | Distribution | Debian version | Kernel version | RaspAP version | Size |
 | ------------ | -------------- | -------------- | -------------- | ---- |
 | Raspberry Pi OS (64-bit) Lite | 12 (bookworm) | 6.6 | Latest | 869 MB |
 | Raspberry Pi OS (32-bit) Lite | 12 (bookworm) | 6.6 | Latest | 897 MB |
 
-These images are automatically generated with each release of RaspAP and are made available here. You may choose between an arm64 or armhf (32-bit) based build.
+These images are automatically generated with each release of RaspAP and are made <a href="https://github.com/RaspAP/raspap-webgui/releases/latest">available here</a>. You may choose between an `arm64` or `armhf` (32-bit) based build.
 
-After downloading your desired image, use a utility such as the Raspberry Pi Imager or balenaEtcher to flash the OS image onto a microSD card. Insert the card into your device and boot it up. The latest RaspAP release with the most popular components will be active and ready for you to configure.
+After downloading your desired image, use a utility such as the Raspberry Pi Imager or <a href="https://www.balena.io/etcher">balenaEtcher</a> to flash the OS image onto a microSD card. Insert the card into your device and boot it up. The latest RaspAP release with the most popular components will be active and ready for you to configure.
 
+## Quick Installer
+Alternatively, begin with a clean install of the latest release of a <a href="#distros">supported Linux distribution</a>. In the example below, <a href="https://www.raspberrypi.com/software/operating-systems/#raspberry-pi-os-64-bit">Raspberry Pi OS (64-bit) Lite</a> is used.
 
-## Quick installer
-Alternatively, begin with a clean install of the latest release of a supported Linux distribution. In the example below, Raspberry Pi OS (64-bit) Lite is used. Update your OS to its latest version, including the kernel and firmware, followed by a reboot:
+Update your OS to its latest version, including the kernel and firmware, followed by a reboot:
 ```
 sudo apt-get update
 sudo apt-get full-upgrade
 sudo reboot
 ```
-Set the WiFi country in raspi-config's Localisation Options:
+Set the WiFi country in `raspi-config`'s Localisation Options:
 ```
 sudo raspi-config
 ```
@@ -33,7 +34,7 @@ Invoke RaspAP's Quick Installer:
 curl -sL https://install.raspap.com | bash
 ```
 
-The Quick installer will complete the steps in the manual installation for you. At the end of the install process, accept the prompt to reboot your system.
+The <a href="https://docs.raspap.com/get-started/quick-installer/">Quick installer</a> will complete the steps in the <a href="https://docs.raspap.com/get-started/manual/">manual installation</a> for you. At the end of the install process, accept the prompt to reboot your system.
 
 ## Initial settings
 After completing either of these setup options, the wireless AP network will be configured as follows:  
@@ -47,7 +48,7 @@ After completing either of these setup options, the wireless AP network will be 
 
 It is strongly recommended that you change these default credentials in RaspAP's Authentication and Hotspot > Security panels.
 
-Your AP's basic settings and many advanced options may now be modified by RaspAP.
+Your AP's <a href="https://docs.raspap.com/features-core/ap-basics/">basic settings</a> and many <a href="https://docs.raspap.com/features-core/ap-basics/#advanced-options">advanced options</a> may now be modified by RaspAP.
 
 ## Supported Distributions
 RaspAP was originally made for Raspberry Pi OS, but now also installs on the following Debian-based distros.
@@ -64,9 +65,9 @@ RaspAP was originally made for Raspberry Pi OS, but now also installs on the fol
 
 Linux distributions
 
-You are also encouraged to try RaspAP's community-led Docker container.
+You are also encouraged to try RaspAP's community-led <a href="https://github.com/RaspAP/raspap-docker">Docker container</a>.
 
 ## Documentation and more
-Our frequently asked questions (FAQ) are continuously updated and are a great place to start. Need help not covered in the FAQ, have an idea or want to share your project with the RaspAP community? Head over to our GitHub Discussions. For everything else, dive into our official documentation.
+Our <a href="https://docs.raspap.com/faq/">frequently asked questions (FAQ)</a> are continuously updated and are a great place to start. Need help not covered in the FAQ, have an idea or want to share your project with the RaspAP community? Head over to our GitHub <a href="https://github.com/RaspAP/raspap-webgui/discussions">Discussions</a>. For everything else, dive into our official documentation.
 
-<button class="button"><a href="https://docs.raspap.com">Read Our Docs</a></button>
+More detailed information can be found in our <a href="https://docs.raspap.com">documentation</a>.
