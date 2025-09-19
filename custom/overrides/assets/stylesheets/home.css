@@ -551,6 +551,6 @@ h1, h2, h3, h4, h5 {
 .st-base-primary { background-color: var(--st-base-primary);}
 
 .box-shadow { 
-    box-shadow: var(--md-shadow-z2);
+    box-shadow: var(--md-shadow-z3);
 }
 
