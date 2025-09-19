@@ -70,10 +70,6 @@
 }
 
 /* Search */
-.md-search__form {
-    border-radius: var(--br-24);
-}
-
 [data-md-color-scheme="slate"] .md-search__form {
     background-color: var(--grey-950);
 }

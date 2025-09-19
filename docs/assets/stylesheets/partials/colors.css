@@ -66,11 +66,11 @@
   --md-content-color-lighter: var(--neutral-600);
   --md-content-color-lightest: var(--base-white);
   --md-table-top-color: hsl(240, 2%, 16%);
-
   --md-typeset-color--lighter: hsla(240, 1%, 65%, 0.2);
   --md-typeset-color-white: hsl(0, 0%, 98%);
-
   --md-border-color: hsl(240, 3%, 29%);
+
+  --primary-medium-aqua: #529fb2;
 }
 
 :root > * {
