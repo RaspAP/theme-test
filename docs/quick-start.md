@@ -9,6 +9,9 @@ RaspAP gives you two different ways to get up and running quickly. The simplest 
 ## Custom OS
 Custom Raspberry Pi OS Lite images with the latest RaspAP are available for <a href="https://github.com/RaspAP/raspap-webgui/releases/latest">direct download</a>. This includes both 32- and 64-bit builds for ARM architectures.
 
+> Note
+> As a courtesy, starting with v3.4.1, we've made available Torrent files for the images. The downloads will still come from Github, but will be able to completely finish without falling victim to Github's token timeout issues. Please connect with us if you still have issues downloading.
+
 | Distribution | Debian version | Kernel version | RaspAP version | Size |
 | ------------ | -------------- | -------------- | -------------- | ---- |
 | Raspberry Pi OS (64-bit) Lite | 12 (bookworm) | 6.6 | Latest | 869 MB |
