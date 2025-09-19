@@ -109,10 +109,13 @@ extra:
     # - icon: material/hand-coin
     #   link: https://gofund.me/2033eedb
     - icon: simple/github
-      link: https://github.com/raspap
+      link: https://github.com/RaspAP
     - icon: simple/discord
-      link: https://discord.gg/rth5Yzzm
-
+      link: https://discord.gg/KVAsaAR
+    - icon: simple/reddit
+      link: https://reddit.com/r/RaspAP
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/Rasp_AP
 # Extensions
 markdown_extensions:
   #- stepslist

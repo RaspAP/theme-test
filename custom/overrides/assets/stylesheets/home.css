@@ -135,7 +135,7 @@ body {
 
 @media (min-width: 48em) {
     .custom-shape-divider-bottom{
-        height: 150px;
+        height: 75px;
     }
 }
 
@@ -234,10 +234,7 @@ body {
     line-height: 1;
     margin-inline: var(--size-08);
     transition: all ease-in-out var(--md-transition-duration);
-
     color: var(--base-white);
-    background: linear-gradient(135deg, var(--primary-blue-400) 0%, var(--md-accent-fg-color) 50%) no-repeat;
-
     border-radius: var(--br-06);
 }
 .button[data-type="inverted"] {
@@ -336,11 +333,6 @@ h1, h2, h3, h4, h5 {
     background: hsla(0, 0%, 0%, 0.25) !important;
 }
 
-.mdx-header--logo {
-    width: 24px;
-    margin: 0.5rem;
-}
-
 /* ======= HERO ====== */
 
 .hero_text {
@@ -380,30 +372,6 @@ h1, h2, h3, h4, h5 {
 .hero-context {
     position: relative;
     z-index: 3;
-}
-
-.videowrapper {
-    position: relative;
-    padding:0 45px;
-}
-
-.scribble {
-    position: absolute;
-    bottom: -0.9rem;
-    left: 2.9rem;
-    height: 2.25rem;
-}
-
-.scribble-text {
-    color: var(--primary-blue-500);
-    position: absolute;
-    font-size: var(--fs-text-xs);
-    bottom: -1.75rem;
-    left: 0rem;
-}
-
-.video {
-    display: none;
 }
 
 .fallback-image {
@@ -540,8 +508,8 @@ h1, h2, h3, h4, h5 {
     .fs-display-m { font-size: var(--fs-display-m); line-height: 60px; letter-spacing: -0.01em;}
     .fs-headline-xl { font-size: var(--fs-headline-xl); line-height: 48px; letter-spacing: -0.02em;}
     .fs-headline-l { font-size: var(--fs-headline-l); line-height: 44px; letter-spacing: -0.02em;}
-    .fs-headline-m { font-size: var(--fs-headline-m); line-height: 40px; letter-spacing: -0.01em;}
-    .fs-headline-s { font-size: var(--fs-headline-s); line-height: 38px; letter-spacing: -0.01em;}
+    .fs-headline-m { font-size: var(--fs-headline-m); line-height: 40px; letter-spacing: -0.01em; margin-bottom: var(--size-12); margin-top: -1.5rem;}
+    .fs-headline-s { font-size: var(--fs-headline-s); line-height: 38px; letter-spacing: -0.01em; }
     .fs-headline-xs { font-size: var(--fs-headline-xs); line-height: 30px; letter-spacing: -0.01em;}
     .fs-headline-xxs { font-size: var(--fs-headline-xxs); line-height: 28px; letter-spacing: -0.1px;}
 }
@@ -569,7 +537,7 @@ h1, h2, h3, h4, h5 {
 .fc-on-color { color: var(--fc-on-color);}
 .fc-disabled { color: var(--fc-disabled);}
 .fc-primary { color: var(--fc-primary);}
-.icon { font-size: 1.2rem; color: var(--fc-primary);}
+.icon { font-size: 1.2rem; color: var(--primary-medium-aqua);}
 
 /* background | Lightmode */
 .bg-base-main { background-color: var(--bg-base-main);}
@@ -583,6 +551,6 @@ h1, h2, h3, h4, h5 {
 .st-base-primary { background-color: var(--st-base-primary);}
 
 .box-shadow { 
-    box-shadow: var(--md-shadow-z2);
+    box-shadow: var(--md-shadow-z3);
 }
 

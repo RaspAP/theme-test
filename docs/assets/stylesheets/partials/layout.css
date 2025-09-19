@@ -69,11 +69,12 @@
     font-size: var(--md-400);
 }
 
-/* Search */
-.md-search__form {
-    border-radius: var(--br-24);
+.mdx-header--logo img {
+    width: 24px;
+    margin: 0.5rem;
 }
 
+/* Search */
 [data-md-color-scheme="slate"] .md-search__form {
     background-color: var(--grey-950);
 }
