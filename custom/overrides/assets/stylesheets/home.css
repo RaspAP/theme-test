@@ -417,36 +417,6 @@ h1, h2, h3, h4, h5 {
     display: block;
 }
 
-@media (min-width:48em) {
-    .scribble {
-        height: 2.75rem;
-        left: 2rem;
-    }
-
-    .video {
-        display: block;
-    }
-
-    .fallback-image {
-        display: none;
-    }
-}
-
-@media (min-width: 78em) {
-    .scribble {
-        height: 4.25rem;
-        bottom: -1.5rem;
-        left: 4rem;
-    }
-    
-    .scribble-text {
-        font-size: var(--fs-text-m);
-        bottom: 0.5rem;
-        left: -2rem;
-    }
-}
-
-
 /* ====== FEATURES ====== */
 
 .features .column-grid-3 {
