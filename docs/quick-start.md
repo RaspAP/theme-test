@@ -69,7 +69,7 @@ RaspAP was originally made for Raspberry Pi OS, but now also installs on the fol
 | Armbian  | 23.11 (Jammy)  | ARM  | Beta  |
 | Debian | Bookworm | ARM / x86_64 | Beta |
 
-Linux distributions
+<img src="/assets/images/supported-distros.png" style="max-width: 50%;" alt="Supported distributions">
 
 You are also encouraged to try RaspAP's community-led <a href="https://github.com/RaspAP/raspap-docker">Docker container</a>.
 
