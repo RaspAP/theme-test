@@ -20,6 +20,7 @@ body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     overflow-y: auto;
+    scroll-behavior: smooth;
 }
 
 
@@ -55,8 +56,6 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
     z-index: 0;
   }
 
@@ -421,7 +420,7 @@ h1, h2, h3, h4, h5 {
 /* ====== FEATURES ====== */
 
 .features .column-grid-3 {
-    margin-top: var(--size-64);
+    margin-top: var(--size-16);
 
     & .lp-tab {
         background-color: var(--bg-base-second);
@@ -518,7 +517,7 @@ h1, h2, h3, h4, h5 {
     .fs-display-m { font-size: var(--fs-display-m); line-height: 60px; letter-spacing: -0.01em;}
     .fs-headline-xl { font-size: var(--fs-headline-xl); line-height: 48px; letter-spacing: -0.02em;}
     .fs-headline-l { font-size: var(--fs-headline-l); line-height: 44px; letter-spacing: -0.02em;}
-    .fs-headline-m { font-size: var(--fs-headline-m); line-height: 40px; letter-spacing: -0.01em; margin-bottom: var(--size-12); margin-top: -1.5rem;}
+    .fs-headline-m { font-size: var(--fs-headline-m); line-height: 40px; letter-spacing: -0.01em; margin-bottom: var(--size-12);}
     .fs-headline-s { font-size: var(--fs-headline-s); line-height: 38px; letter-spacing: -0.01em; }
     .fs-headline-xs { font-size: var(--fs-headline-xs); line-height: 30px; letter-spacing: -0.01em;}
     .fs-headline-xxs { font-size: var(--fs-headline-xxs); line-height: 28px; letter-spacing: -0.1px;}
