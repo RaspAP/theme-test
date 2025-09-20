@@ -38,17 +38,32 @@ body {
 }
 
 .lp-layer.hero {
-    background-image: url('../images/moonbase-alt.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+  position: relative;
+  background-image: url('../images/moonbase-alt.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
 }
 
-@media (min-width: 576px) {
-    .lp-layer.hero {
-        background-position: right 0px top 0px;
-        background-size: 100% auto;
-    }
+.lp-layer.hero::before {
+  content: none;
+}
+
+@media (max-width: 576px) {
+  .lp-layer.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    z-index: 0;
+  }
+
+  .lp-layer.hero > * {
+    position: relative;
+    z-index: 1;
+  }
 }
 
 @media (prefers-reduced-motion: no-preference){
