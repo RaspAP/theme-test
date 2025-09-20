@@ -10,7 +10,7 @@ resources:
       byline: "Photo: Riona MacNamara / CC-BY-CA"
 ---
 
-<img src="/theme-test/blog/assets/images/restapi-banner.webp" width="600px"><br/>
+<img src="/blog/assets/images/restapi-banner.webp" width="600px"><br/>
 
 The developers at RaspAP have recently [rolled out](https://github.com/RaspAP/raspap-webgui/pull/1519) a new [RestAPI](https://docs.raspap.com/restapi/) based on the ultra-quick [FastAPI](https://fastapi.tiangolo.com/) framework. Support for an API has ranked high among requests from RaspAP’s users for quite some time. To mark this occasion (and also celebrate [Pi Day](https://en.wikipedia.org/wiki/Pi_Day)) we’re hosting a friendly challenge to see what kinds of creative applications developers can bake up with our brand-spanking-new RestAPI.
 
