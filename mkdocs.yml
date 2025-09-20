@@ -95,7 +95,6 @@ plugins:
         - social
         - typeset
 
-
 extra:
   status:
     <identifier>: <description>
@@ -104,17 +103,13 @@ extra:
     property: !ENV GOOGLE_ANALYTICS_KEY
   #generator: false
   social:
-    # - icon: simple/kofi
-    #   link: https://ko-fi.com/pellcorp49698
-    # - icon: material/hand-coin
-    #   link: https://gofund.me/2033eedb
     - icon: simple/github
       link: https://github.com/RaspAP
     - icon: simple/discord
       link: https://discord.gg/KVAsaAR
     - icon: simple/reddit
       link: https://reddit.com/r/RaspAP
-    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/Rasp_AP
 # Extensions
 markdown_extensions:
@@ -156,31 +151,10 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  # - Probes:
-  #   - Cartographer: getting-started/markdown.md
-  #   - Beacon: getting-started/admonitions.md
-  #   - BLTouch: getting-started/codeblocks.md
-  #   - Microprobe: getting-started/markdown.md
-  #   - Klicky: getting-started/admonitions.md
-  #   - BTTEddy: getting-started/codeblocks.md
-  #   - EddyNG: getting-started/markdown.md
   - Quick Start:
     - quick-start.md
-    # - Markdown: getting-started/markdown.md
-    # - Admonitions: getting-started/admonitions.md
-    # - Codeblocks: getting-started/codeblocks.md
-    # - Custom:
-    #   - Setup example: getting-started/setup.md
-    #   - Using beta tags: getting-started/test.md
   - Blog:
     - blog/index.md
-  # - Example pages:
-  #   - cartographer.md
-  #   - FAQ.md
-  # - Tutorials:
-  #   - custom-homepage.md
-  #   - homepage-live-demo.md
-
 watch:
   - docs
   - custom/overrides
