@@ -1,11 +1,11 @@
 # Project information
-site_name: RaspAP
+site_name: The easiest, full-featured wireless router for Debian
 site_url: https://raspap.com
 site_author: RaspAP Community
 site_description: >-
   The easiest, full-featured wireless router setup for Debian-based devices. Period.
 
-#Repository
+# Repository
 repo_name: RaspAP/raspap-website
 repo_url: https://github.com/RaspAP/raspap-website
 edit_uri: edit/main/docs/
